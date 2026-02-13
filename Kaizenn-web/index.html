@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>💖 My Forever Valentine 💖</title>
+<style>
+/* ----- RESET & BODY ----- */
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Comic Sans MS', cursive,sans-serif; overflow-x:hidden; background:#ffdde1; color:#ff4f81; position:relative;}
+h1,h2{text-align:center;text-shadow:2px 2px #ff3f3f; color:#ff4f81;}
+h1{margin-top:50px;font-size:3em;animation:fadeIn 2s;}
+h2{margin:40px 0;font-size:2em;animation:fadeIn 2s;}
+
+@keyframes fadeIn {0%{opacity:0;}100%{opacity:1;}}
+
+/* ----- BUTTONS ----- */
+#valentine-question{text-align:center;margin:50px;font-size:2em;}
+.btn{font-size:1.5em;padding:15px 30px;margin:20px;border:none;border-radius:15px;cursor:pointer;transition:all 0.3s ease;position:relative;box-shadow:0 0 10px rgba(0,0,0,0.2);}
+#yes-btn{background-color:#ff4f81;color:#fff;}
+#no-btn{background-color:#ffcccc;color:#ff4f81;}
+#no-btn:hover{transform:scale(1.2) rotate(5deg);}
+
+/* ----- MUSIC ----- */
+#music-section{text-align:center;margin:50px 0;}
+.spotify-embed{border-radius:15px;margin:10px; transition:transform 0.3s ease;}
+.spotify-embed:hover{transform:scale(1.1);}
+
+/* ----- PHOTOS ----- */
+#photos-section{text-align:center;margin:50px 0;display:flex;flex-wrap:wrap;justify-content:center;}
+.photo{width:150px;height:150px;margin:10px;border-radius:15px;transition:transform 0.3s ease, box-shadow 0.3s; cursor:pointer;}
+.photo:hover{transform:scale(1.3) rotate(5deg); box-shadow:0 0 20px #ff4f81;}
+
+/* ----- GIFS ----- */
+#gifs-section{text-align:center;margin:50px 0;display:flex;flex-wrap:wrap;justify-content:center;}
+.gif{width:150px;height:150px;margin:10px; transition:transform 0.3s ease;}
+.gif:hover{transform:scale(1.3) rotate(-5deg); filter:drop-shadow(0 0 20px #ff4f81);}
+.gif[data-uss]:hover::after{content:"USS 💘";position:absolute;color:#ff4f81;font-size:1em;font-weight:bold;transform:translateY(-30px);}
+
+/* ----- LOVE PARA ----- */
+#love-para{max-width:900px;margin:50px auto;background:rgba(255,255,255,0.15);padding:30px;border-radius:20px;color:#ff4f81;font-size:1.3em;line-height:1.8em;text-shadow:1px 1px #ff3f3f;white-space:pre-wrap;}
+.typewriter{display:inline-block;overflow:hidden;border-right:0.15em solid #ff4f81;white-space:pre-wrap;animation:typing 25s steps(4000,end) forwards;}
+@keyframes typing{from{width:0;}to{width:100%;}}
+
+/* ----- FUTURE DREAMS ----- */
+#future-section{max-width:900px;margin:50px auto;padding:20px;}
+.dream{background:rgba(255,255,255,0.2);margin:30px 0;padding:25px;border-radius:15px;font-size:1.2em;text-align:left;transition:transform 0.6s ease,opacity 0.6s ease;opacity:0;transform:translateY(50px);box-shadow:0 0 20px #ff4f81;color:#ff4f81;}
+
+/* ----- FOOTER ----- */
+footer{text-align:center;padding:50px 0;font-size:2em;position:relative;color:#ff4f81;}
+
+/* ----- CONFETTI & PARTICLES ----- */
+.confetti{position:fixed;width:12px;height:12px;top:0;animation:fall 3s linear infinite;opacity:0.8;border-radius:50%;}
+@keyframes fall{0%{transform:translateY(0);}100%{transform:translateY(100vh);}}
+.particle{position:absolute;width:8px;height:8px;background:#ff4f81;border-radius:50%;opacity:0.7;animation:float 5s infinite;}
+@keyframes float{0%{transform:translateY(0) rotate(0deg);}50%{transform:translateY(-20px) rotate(180deg);}100%{transform:translateY(0) rotate(360deg);}}
+
+/* ----- HEART CURSOR ----- */
+.heart{position:absolute;width:15px;height:15px;background:#ff4f81;clip-path:polygon(50% 0%,61% 10%,75% 10%,85% 25%,85% 50%,50% 100%,15% 50%,15% 25%,25% 10%,39% 10%);transition:transform 0.2s;}
+</style>
+</head>
+<body>
+
+<h1>💖 For My Forever Valentine 💖</h1>
+
+<!-- ----- VALENTINE QUESTION ----- -->
+<div id="valentine-question">
+Will you be my Valentine?<br>
+<button id="yes-btn" class="btn">Yes 💘</button>
+<button id="no-btn" class="btn">No ❌</button>
+</div>
+
+<!-- ----- MUSIC ----- -->
+<div id="music-section">
+<h2>Our Songs 🎶</h2>
+<iframe class="spotify-embed" src="https://open.spotify.com/embed/track/70fA3vjK2r6kpHrN6adr9q?utm_source=generator" width="300" height="80" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe class="spotify-embed" src="https://open.spotify.com/embed/track/3DarAbFujv6eYNliUTyqtz?utm_source=generator" width="300" height="80" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe class="spotify-embed" src="https://open.spotify.com/embed/track/5XeFesFbtLpXzIVDNQP22n?utm_source=generator" width="300" height="80" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe class="spotify-embed" src="https://open.spotify.com/embed/track/4yNk9iz9WVJikRFle3XEvn?utm_source=generator" width="300" height="80" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe class="spotify-embed" src="https://open.spotify.com/embed/track/6G9YlbU3ByPJQvOFDRdwyM?utm_source=generator" width="300" height="80" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+</div>
+
+<!-- ----- PHOTOS ----- -->
+<div id="photos-section">
+<h2>Ahh Some Freaky Photos </h2>
+<img class="photo" src= "https://github.com/Kaizenn-web/5-3-ismybaeforever/blob/main/photos/Photo1.jpg" alt="Photo 1">
+<img class="photo" src= "Photo10.JPG" alt="Photo 2">
+<img class="photo" src="Photo2.JPG" alt="Photo 3">
+<img class="photo" src="Photo3.JPG" alt="Photo 4">
+<img class="photo" src="Photo4.JPG" alt="Photo 5">
+<img class="photo" src="Photo5.JPG" alt="Photo 6">
+<img class="photo" src="Photo6.JPG" alt="Photo 7">
+<img class="photo" src="Photo7.JPG" alt="Photo 8">
+<img class="photo" src="Photo8.JPG" alt="Photo 9">
+<img class="photo" src="Photo9.JPG" alt="Photo 10">
+</div>
+
+<!-- ----- GIFS ----- -->
+<div id="gifs-section">
+<h2>Digital Gifts & GIFs 🎁</h2>
+<img class="gif" src= "GIF1.gif" alt="Heart GIF">
+<img class="gif" src="GIF2.gif" alt="Confetti GIF">
+<img class="gif" src="GIF3.gif" data-uss alt="Leon + Ada">
+<img class="gif" src="GIF4.gif" alt="Extra GIF">
+</div>
+
+<!-- ----- LOVE LETTER ----- -->
+<div id="love-para">
+<div class="typewriter">
+My love, every moment I think of you, my heart skips a beat. Your laugh lights up my world, your eyes sparkle with dreams I want to share forever. From silly jokes to secret glances, every second with you is magic. You are my chaos, my calm, my heartbeat. 💘
+
+Life may bring storms, challenges, and tough days, but I promise we will never break up. No argument, no distance, no hardship can touch us. I will be your compass when lost, your laughter when sad, your warmth when cold. ❤️
+
+I see our future full of adventures, tiny home full of love, chaos, laughter. Midnight road trips, gaming marathons, cozy nights with snacks scattered everywhere. Little inside jokes, life-long memories, a bond stronger than anything. 💕
+
+I see our children, giggling and chaotic, growing up in love, kindness, and joy. Bedtime stories, messy mornings, vacations, quiet nights holding each other close. Through highs and lows, mundane and magical — we are forever. 💖
+
+I promise to surprise you, make you laugh, support you, dream bigger for us, and keep proving my love. You are my world, my heartbeat, my everything. I choose you, today and forever. 💘
+</div>
+</div>
+
+<!-- ----- FUTURE DREAMS ----- -->
+<div id="future-section">
+<h2>Our Adventures & Future 🌟</h2>
+<div class="dream">Midnight road trips, music blasting, just you and me, hearts racing.</div>
+<div class="dream">Gaming marathons together, laughing, teasing, cheering each other on.</div>
+<div class="dream">Building our dream home, full of love, chaos, surprises.</div>
+<div class="dream">Family days, holidays, quiet nights holding each other close.</div>
+<div class="dream">Watching our children grow, teaching them love, kindness, magic.</div>
+<div class="dream">Traveling the world hand-in-hand, every adventure unforgettable.</div>
+<div class="dream">Late night talks, deep confessions, endless laughter in our universe.</div>
+</div>
+
+<footer>Forever Yours 💘</footer>
+
+<script>
+// ----- FLYING NO BUTTON -----
+const noBtn=document.getElementById('no-btn');
+noBtn.addEventListener('mouseenter',()=>{
+  const x=Math.random()*(window.innerWidth-noBtn.offsetWidth);
+  const y=Math.random()*(window.innerHeight-noBtn.offsetHeight);
+  noBtn.style.position='absolute';
+  noBtn.style.left=x+'px';
+  noBtn.style.top=y+'px';
+});
+
+// ----- YES BUTTON + CONFETTI -----
+const yesBtn=document.getElementById('yes-btn');
+yesBtn.addEventListener('click',()=>{
+  alert("YAYYYYY 💘 You said YES!");
+  createConfetti();
+});
+
+function createConfetti(){
+  for(let i=0;i<200;i++){
+    const confetti=document.createElement('div');
+    confetti.classList.add('confetti');
+    confetti.style.left=Math.random()*100+'vw';
+    confetti.style.background=`hsl(${Math.random()*360},100%,50%)`;
+    document.body.appendChild(confetti);
+    setTimeout(()=>confetti.remove(),4000);
+  }
+}
+
+// ----- SCROLL ANIMATION -----
+const dreams=document.querySelectorAll('.dream');
+window.addEventListener('scroll',()=>{
+  dreams.forEach(d=>{
+    const rect=d.getBoundingClientRect().top;
+    if(rect<window.innerHeight-100){d.style.opacity=1;d.style.transform='translateY(0)';}
+  });
+});
+
+// ----- HEART CURSOR -----
+document.addEventListener('mousemove',(e)=>{
+  const heart=document.createElement('div');
+  heart.classList.add('heart');
+  heart.style.left=e.pageX+'px';
+  heart.style.top=e.pageY+'px';
+  heart.style.background=`hsl(${Math.random()*360},100%,50%)`;
+  document.body.appendChild(heart);
+  setTimeout(()=>heart.remove(),1000);
+});
+
+// ----- FLOATING PARTICLES -----
+for(let i=0;i<50;i++){
+  const p=document.createElement('div');
+  p.classList.add('particle');
+  p.style.left=Math.random()*window.innerWidth+'px';
+  p.style.top=Math.random()*window.innerHeight+'px';
+  document.body.appendChild(p);
+}
+</script>
+
+</body>
+</html>
+
+
+
